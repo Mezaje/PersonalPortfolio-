@@ -9,7 +9,6 @@ import Footer from './component/footer'
 import Contact from './component/contact'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div >

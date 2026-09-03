@@ -57,17 +57,7 @@ export default function Experience() {
                 </div>
               </div>
 
-              {/* Technologies */}
-              <div className="mt-7 ml-[174px] flex flex-wrap gap-2">
-                {job.technologies?.map((technology) => (
-                  <span
-                    key={technology}
-                    className="border border-white/20 px-3 py-1.5 font-mono text-[10px] uppercase tracking-wide text-white/60 transition-all duration-200 group-hover:border-white/35 group-hover:text-white/80"
-                  >
-                    {technology}
-                  </span>
-                ))}
-              </div>
+
 
               {/* Description */}
               <div className="mt-7 ml-[174px] space-y-4">
